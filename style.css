@@ -1,0 +1,40 @@
+body{
+    background-color: #1b998b;
+    text-align: center;
+    color: #f8f1ff;
+}
+
+.Container{
+    /* height: 70vh; */
+    display: flex;
+    /* flex-wrap: wrap ; */
+    justify-content:center;
+    align-items: center;
+    
+}
+.game{
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content:center;
+    align-items: center;
+    gap: 10px;
+}
+.box{
+    height: 120px;
+    width: 120px;
+    border-radius: 20%;
+    font-size: 30px;
+    color: #534d56;
+    background-color: #decdf5;
+}
+.Reset{
+    height: 80px;
+    width: 100px;
+    margin-top: 50px;
+    font-size: 20px;
+    font-style: italic;
+    border-radius: 100%;
+    background-color: #decdf5;
+}
